@@ -14,7 +14,7 @@
 		911F29371617665300C0A83C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8886342158103460088CF38 /* libcrypto.a */; };
 		911F29381617665300C0A83C /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8886333158102F50088CF38 /* libsasl2.a */; };
 		911F29391617665300C0A83C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8886340158103460088CF38 /* libssl.a */; };
-		911F293B1617665800C0A83C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F293A1617665800C0A83C /* libiconv.dylib */; };
+		91766B0616B986B20064DACF /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91766B0516B986B20064DACF /* libiconv.dylib */; };
 		F81A8ADC0C03FC3B002F780A /* CTMIME_MessagePart.h in Headers */ = {isa = PBXBuildFile; fileRef = F81A8AD20C03FC3B002F780A /* CTMIME_MessagePart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F81A8ADD0C03FC3B002F780A /* CTMIME_MessagePart.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A8AD30C03FC3B002F780A /* CTMIME_MessagePart.m */; };
 		F81A8ADE0C03FC3B002F780A /* CTMIME_MultiPart.h in Headers */ = {isa = PBXBuildFile; fileRef = F81A8AD40C03FC3B002F780A /* CTMIME_MultiPart.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -220,7 +220,7 @@
 		2D538B42119803A6000AB4A2 /* CTSMTPAsyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTSMTPAsyncConnection.h; path = Source/CTSMTPAsyncConnection.h; sourceTree = SOURCE_ROOT; };
 		2D538B43119803A6000AB4A2 /* CTSMTPAsyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTSMTPAsyncConnection.m; path = Source/CTSMTPAsyncConnection.m; sourceTree = SOURCE_ROOT; };
 		8DC2EF5B0486A6940098B216 /* MailCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MailCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		911F293A1617665800C0A83C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
+		91766B0516B986B20064DACF /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		F81A8AD20C03FC3B002F780A /* CTMIME_MessagePart.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CTMIME_MessagePart.h; path = Source/CTMIME_MessagePart.h; sourceTree = "<group>"; };
 		F81A8AD30C03FC3B002F780A /* CTMIME_MessagePart.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = CTMIME_MessagePart.m; path = Source/CTMIME_MessagePart.m; sourceTree = "<group>"; };
@@ -316,7 +316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911F293B1617665800C0A83C /* libiconv.dylib in Frameworks */,
+				91766B0616B986B20064DACF /* libiconv.dylib in Frameworks */,
 				911F29371617665300C0A83C /* libcrypto.a in Frameworks */,
 				911F29381617665300C0A83C /* libsasl2.a in Frameworks */,
 				911F29391617665300C0A83C /* libssl.a in Frameworks */,
@@ -357,6 +357,7 @@
 		0867D691FE84028FC02AAC07 /* MailCore */ = {
 			isa = PBXGroup;
 			children = (
+				91766B0516B986B20064DACF /* libiconv.dylib */,
 				911F293A1617665800C0A83C /* libiconv.dylib */,
 				F8886339158103460088CF38 /* openssl.xcodeproj */,
 				F888632D158102F50088CF38 /* Cyrus SASL.xcodeproj */,
